@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>surajdaTech</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="row clearfix">
+
+				<h1 class="logo">surajdaTech</h1>
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Contact Me</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+
+			</div>
+		</nav>
+		<div class="main-content-header">
+
+			<h2><span id="color-change">Hello There!</span><br>
+				Welcome to my website</h2>
+			<a href="#" class="btn btn-left">My projects</a>
+			<a href="#" class="btn btn-right">Show me more</a>
+
+		</div>
+	</header>
+
+	<script>
+		
+		function slideshow() {
+			var x = document.getElementById("check-class");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} else {
+				x.style.display = "none";
+			}
+		}
+
+	</script>
+
+</body>
+</html>
